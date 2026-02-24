@@ -1,2 +1,23 @@
 .tuade { color: pink; font-family: Arial;font-weight: bold;top-margin: 20pt; font-size:20pt; }
 .noidung { color: black; top-margin: 6pt; font-size: 15pt; font-style: normal;}
+.container{ 
+  display: flex;
+  flex-direction: column;
+  height: 100vh
+}
+.header{
+  flex: 15%;
+  background-color: lavenderblush
+}
+.menu{
+  flex: 5%;
+  background-color: lightpink
+}
+.content{
+  flex: 70%;
+   background-color: papayawhip
+}
+.footer{
+  flex: 10%;
+   background-color: lavenderblush
+}
