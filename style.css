@@ -8,6 +8,7 @@
 .header{
   flex: 15%;
   background-color: lavenderblush;
+  background: url(
 }
 .menu{
   flex: 5%;
